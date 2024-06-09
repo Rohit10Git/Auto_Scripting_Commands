@@ -1,0 +1,59 @@
+01. Web-site opening :      ** get(); or navigate().to(); **	
+	
+		            driver.get("url");                                 
+		            driver.manage().window().maximize();     		            
+
+ or     
+                            driver.navigate().to("url");
+                            driver.manage().window().maximize();
+
+02. Getting Title of page : ** getTitle(); **
+
+		            String Title = driver.getTitle();                                                     
+		            System.out.println("Web-page Title is = " +Title);                                    
+ 
+03. Getting Current url of page : ** getCurrentUrl(); **
+
+		            String Current_url = driver.getCurrentUrl();                                          
+		            System.out.println("Web-page Url is = " +Current_url);                              
+
+04. Getting Text value of element : ** getText(); **
+
+		            String Text = driver.findElement(By.xpath("value")).getText();                                          
+		            System.out.println("Web-element Text is = " +Text); 
+
+05. Getting Source code of page : ** getPageSource(); **
+
+		            String html_Text = driver.getPageSource();                                          
+		            System.out.println("Web-page Source code is = " +html_Text); 
+
+06. Getting Page_Source length : ** getPageSource(); **
+                            
+		            int html_Text_Length = driver.getPageSource.length();                                          
+		            System.out.println("Web-page Source code is = " +html_Text_Length); 
+
+07. Browser Tab closing : ** close(); **	
+	
+		            driver.close(); 
+
+08. Browser closing : ** quit(); **	
+	
+		            driver.quit(); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
